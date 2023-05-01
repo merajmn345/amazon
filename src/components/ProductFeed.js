@@ -1,5 +1,6 @@
 import React from "react";
 import Main from "./Products";
+import Image from "next/image";
 
 function ProductFeed({ products }) {
   return (
@@ -34,7 +35,7 @@ function ProductFeed({ products }) {
                   {item.category}
                 </p>
 
-                <img
+                <Image
                   src={item.image}
                   alt=""
                   height={200}
@@ -66,7 +67,7 @@ function ProductFeed({ products }) {
                 {item.category}
               </p>
 
-              <img
+              <Image
                 src={item.image}
                 alt=""
                 height={200}

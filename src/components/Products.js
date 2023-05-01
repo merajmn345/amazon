@@ -31,7 +31,7 @@ function Products({ id, title, price, description, category, image }) {
         {category}
       </p>
 
-      <img src={image} alt="" height={200} width={200} objectFit="contain" />
+      <Image src={image} alt="" height={200} width={200} objectFit="contain" />
       <h4 className="my-3">{title}</h4>
 
       <div className="bg-yellow-400">

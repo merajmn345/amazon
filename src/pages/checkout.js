@@ -2,6 +2,7 @@ import CheckoutProduct from "@/components/CheckoutProduct";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { selectItems, selectTotal } from "@/slices/basketSlice";
+import Image from "next/image";
 import React from "react";
 import { useSelector } from "react-redux";
 
@@ -16,7 +17,7 @@ function Checkout() {
         {/* left */}
 
         <div className="flex-grow m-5 shadow-sm">
-          <img
+          <Image
             src="https://links.papareact.com/ikj"
             alt=""
             height={250}
