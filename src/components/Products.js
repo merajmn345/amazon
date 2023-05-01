@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addToBasket } from "@/slices/basketSlice";
+import Image from "next/image";
 
 const MIN_RATING = 1;
 const MAX_RATING = 5;
