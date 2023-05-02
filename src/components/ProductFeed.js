@@ -20,10 +20,12 @@ function ProductFeed({ products }) {
             />
           );
         })}
-      <img
+      <Image
         className="md:col-span-full"
         src="https://links.papareact.com/dyz"
         alt=""
+        height="400"
+        width="1024"
       />
 
       <div className="md:col-span-2 ">
