@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { addToBasket, removeFromBasket } from "@/slices/basketSlice";
+import Image from "next/image";
 
 function CheckoutProduct({ id, title, price, description, category, image }) {
   const dispatch = useDispatch();

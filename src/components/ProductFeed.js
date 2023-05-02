@@ -50,9 +50,7 @@ function ProductFeed({ products }) {
                   <p>${item.price}</p>
                 </div>
 
-                <button className="mt-auto button" onClick={() => {}}>
-                  Add to Basket
-                </button>
+                <button className="mt-auto button">Add to Basket</button>
               </div>
             </>
           );
@@ -82,14 +80,7 @@ function ProductFeed({ products }) {
                 <p>${item.price}</p>
               </div>
 
-              <button
-                className="mt-auto button"
-                onClick={() => {
-                  addItemToBasket;
-                }}
-              >
-                Add to Basket
-              </button>
+              <button className="mt-auto button">Add to Basket</button>
             </div>
           </>
         );
