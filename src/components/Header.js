@@ -45,7 +45,7 @@ function Header() {
       </div>
 
       <div className="flex justify-between  pb-3 bg-slate-700 ">
-        <div className="flex pl-10 pt-3 space-x-4 text-white text-md">
+        <div className="hidden sm:flex pl-10 pt-3 space-x-4 text-white text-md">
           <p className="cursor-pointer">All</p>
 
           <p className="cursor-pointer">Amazon miniTV</p>
@@ -54,7 +54,7 @@ function Header() {
           <p className="cursor-pointer">Mobiles</p>
           <p className="cursor-pointer">Today's Deals</p>
         </div>
-        <div className="hidden md:inline pr-6 pt-3 ">
+        <div className="hidden lg:inline pr-6 pt-3 ">
           <h1 className="text-lg text-yellow-500 text-bold">
             Great Summer Sale | Start 4th May{" "}
           </h1>
